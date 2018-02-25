@@ -1,0 +1,217 @@
+body{
+	color: #696969;
+	font-size: 14px;
+	font-family: Arial, Verdana, Tahoma;
+	margin:0;
+	padding:0;
+}        
+	
+#contener{
+	background: white;
+	width: 950px;
+	margin:0 auto;
+	padding:0;
+}
+
+.clear{
+	clear: both;
+}
+/*-----------------HEADER-----------------*/
+
+#header{
+	background:url(../images/header.jpg) repeat-x top left;
+	width: 100%;
+	height: 162px;
+	margin:0;
+}
+
+/*-----------------TITRE-----------------*/
+
+
+#titre{
+	width: 950px;
+	margin:0 auto;
+	padding:0;
+}
+
+#titre h1{
+	width:260px;
+	font-size:35px;
+	text-transform:uppercase;
+	margin:0;
+	padding-top:35px;
+	float:left;
+}
+
+#titre h1 .grand{
+	font-size:45px;
+	color: #bbb;
+	text-transform:uppercase;
+	margin:0;
+}
+
+/*-----------------MENU----------------width:540px;*/
+
+#menu{
+	
+	float:left;
+}
+#menu{
+	margin:0;
+	padding:0;
+    margin-top: 35px
+}
+
+#menu ul li{
+	list-style:none;
+	float:left;
+	font-size: 12px;
+	color: #666;
+	width:108px;
+	margin:0 auto;
+	text-align: center;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #666;
+	
+}
+
+
+#menu ul li .big{
+	font-size: 16px;
+	color: #bbb;
+}
+
+#menu ul li .img{
+	margin: 0 auto;
+}
+
+#menu ul li a:hover{
+	color: #bbb;
+}
+
+#menu ul li:hover .img{
+	background-position: bottom left;
+}
+
+#menu ul li:hover .big{
+	color: #497e04;
+}
+
+#menu ul li .acceuil{
+	background: url(../images/home.png);
+	width:36px ;
+	height:30px ;
+}
+
+#menu ul li .news{
+	background: url(../images/portfolio.png);
+	width:31px ;
+	height:31px ;
+}
+
+#menu ul li .services{
+	background: url(../images/profil.png);
+	width: 24px;
+	height:28px ;
+}
+
+#menu ul li .produits{
+	background: url(../images/reglage.png);
+	width:30px ;
+	height:30px;
+}
+
+#menu ul li .contact{
+	background: url(../images/contact.png);
+	width: 32px;
+	height: 22px;
+}
+
+/*-----------------SLIDER-----------------*/
+
+#slider{
+	background: #356700;
+	height: 423px;
+}
+
+#slider .img-slider{
+	width: 950px;
+	margin: 0 auto;
+}
+
+/*-----------------ARTICLES-----------------*/
+
+
+.artic {
+	width: 217px;
+	font-size: 15px;
+	float: left;
+	padding: 0 10px;
+	margin-top: 35px;
+	font-style: italic;
+}
+.artic .cercle{
+	background: #60b000;
+	width: 56px;
+	height: 56px;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+	line-height: 56px;
+	float: left;
+	font-style: normal;
+}
+.artic h2{
+	font-size: 21px;
+	text-transform: uppercase;
+	color: black;
+	padding: 0;
+	margin: 0;
+	line-height: 28px;
+	text-align: center;
+	font-style: normal;
+}
+.artic a{
+	color:#696969;
+}
+
+
+/*-----------------PRESENTATION-----------------*/
+
+
+#presentation {
+
+}
+
+#presentation h3{
+	font-size: 40px;
+}
+
+#presentation #introduction {
+	float: left;
+	width: 650px;
+
+}
+
+#presentation #introduction img {
+	 float: left;
+	 width: 220px;
+}
+
+#presentation #introduction p {
+	float: left;
+	margin:0 0 0 20px ;
+	width: 350px;
+	
+}
+
+#presentation #membres {
+	float: left;
+	width: 260px;
+}
